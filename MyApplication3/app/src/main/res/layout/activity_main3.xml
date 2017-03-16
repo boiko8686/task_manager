@@ -8,11 +8,19 @@
     android:orientation="vertical"
     tools:context="com.example.lenovo.myapplication.Main3Activity">
 
+ <ScrollView
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content">
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical">
+
  <TextView
      android:textColor="@color/black"
      android:layout_width="match_parent"
-     android:layout_height="0dp"
-     android:layout_weight="10"
+     android:layout_height="wrap_content"
+    android:layout_marginTop="100dp"
      android:textSize="34sp"
      android:gravity="center"
      android:text="
@@ -23,10 +31,12 @@ Hello to add Select Menu, then select the length will be the task, then select a
      android:id="@+id/HomeActivity3"
      android:layout_gravity="center"
      android:layout_width="wrap_content"
-     android:layout_height="0dp"
-     android:layout_weight="1"
-     android:layout_margin="35dp"
+     android:layout_height="wrap_content"
+
+   android:layout_marginTop="100dp"
      android:text="menu" />
 
+  </LinearLayout>
+ </ScrollView>
 
 </LinearLayout>
